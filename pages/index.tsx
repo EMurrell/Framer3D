@@ -11,7 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="h-screen w-full flex flex-col justify-center items-center py-16"></main>
+      <main className="h-screen w-full flex flex-col justify-center items-center py-16">
+        <h1 className="text-5xl">Hello World</h1>
+      </main>
     </div>
   );
 }
